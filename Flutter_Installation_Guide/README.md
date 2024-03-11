@@ -70,9 +70,13 @@ This tab allows you to select specific components to install or modify.
 
 **6)Check Necessary Components:**
 -Look for the following components in the list:
-**MSVC v142 - VS 2019 C++ x64/x86 build tools**
-**C++ CMake tools for Windows**
-**Windows 10 SDK**
+
+   - **MSVC v142 - VS 2019 C++ x64/x86 build tools**
+
+   - **C++ CMake tools for Windows**
+
+   - **Windows 10 SDK**
+
 If any of these components are not selected, click the checkbox next to them to select them.
 
 **7)Install Updates:**
