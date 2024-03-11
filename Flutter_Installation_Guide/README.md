@@ -20,11 +20,10 @@ Install the Flutter and Dart plugins from the Visual Studio Code Marketplace.
 Create a Flutter Project:
 
 ### Open a terminal window.
-Navigate to the directory where you want to create your Flutter project.
-Run the following command to create a new Flutter project:
+Run the following command to verify everything is perfectly Setup or not
 
 ```
-   flutter create my_flutter_project
+   flutter doctor
 ```
 
 ### Error while running code -- if your already having vs / old version or without c++ workload 
@@ -40,10 +39,19 @@ Visual Studio - develop Windows apps (Visual Studio Build
         C++ CMake tools for Windows
         Windows 10 SDK
 ```
-        
-### Follow this steps to fix your errors
 
-**1) Open Visual Studio Installer:**
+# Not having Visual Studio 2022 -- Installer download it &  it is not vs code 
+
+![image](https://github.com/gdsc-kits-admin/flutter-bootcamp-2024/assets/116173614/44a3eb41-9e66-4845-a2b2-51cd34c22510)
+
+
+## Download using this link directly --- https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=Community&channel=Release&version=VS2022&source=VSLandingPage&cid=3600&passive=false
+
+or download by search vs 2022 installer in your browser and download the community version 
+        
+## Your doing for the first time or follow this steps to fix your errors 
+
+**1) Open Visual Studio 2022 Installer:**
 
 - Press the "Windows" key on your keyboard or click on the Windows icon in the taskbar to open the Start menu.
 - Type "Visual Studio Installer" in the search bar and press "Enter" to launch the application.
@@ -76,6 +84,8 @@ This tab allows you to select specific components to install or modify.
    - **C++ CMake tools for Windows**
 
    - **Windows 10 SDK**
+        - If your having windows 11 select latest version of 11 and 10
+        - If your having windows 10 select only latest version of 10 only 
 
 If any of these components are not selected, click the checkbox next to them to select them.
 
@@ -101,7 +111,20 @@ Depending on your internet speed and the size of the components, this process ma
 
 - After restarting, reopen Visual Studio.
 Create a new project or open an existing one to ensure that the missing components error no longer appears.
+   - run flutter doctor to verify
+     
+
+![image](https://github.com/gdsc-kits-admin/flutter-bootcamp-2024/assets/116173614/ab8cf47a-37bf-4906-a6d8-159dd9b0465d)
+
+verify using this img , in this vs has no issues so its perfect 
 
 
+# Open a terminal window.
+Navigate to the directory where you want to create your Flutter project.
+Run the following command to create a new Flutter project:
+```
+   flutter create my_flutter_project
+```
+once the folder is created open that folder in vs code and `start debug` by run your code or `click f5`
 
 
