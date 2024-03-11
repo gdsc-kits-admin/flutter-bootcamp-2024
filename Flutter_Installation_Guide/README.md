@@ -27,6 +27,8 @@ Run the following command to verify everything is perfectly Setup or not
 ```
 
 ### Error while running code -- if your already having vs / old version or without c++ workload 
+
+
 ```
 Visual Studio - develop Windows apps (Visual Studio Build     
     Tools 2022 17.7.6)
@@ -39,6 +41,10 @@ Visual Studio - develop Windows apps (Visual Studio Build
         C++ CMake tools for Windows
         Windows 10 SDK
 ```
+
+![err](https://github.com/gdsc-kits-admin/flutter-bootcamp-2024/assets/116173614/8dc9a3c0-ef29-41e1-9b80-948f01efc3dd)
+
+
 
 # Not having Visual Studio 2022 -- Installer download it &  it is not vs code 
 
