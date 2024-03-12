@@ -159,6 +159,22 @@ class MyApp extends StatelessWidget {
   }
 }
 ```
+
+
+```
+body: Center(
+  child: Text(
+    'click',
+    style: TextStyle(
+      color: Colors.blue,
+      fontSize: 16, // Adjust the font size as needed
+      fontWeight: FontWeight.bold, // Optionally, adjust the font weight
+    ),
+  ),
+),
+
+```
+
 ### Output
 
 ![Screenshot 2024-03-10 153123](https://github.com/gdsc-kits-admin/flutter-bootcamp-2024/assets/116173614/346b71ae-ef89-469e-b82a-12d29413b436)
