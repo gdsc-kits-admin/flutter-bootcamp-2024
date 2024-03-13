@@ -9,7 +9,15 @@ In Flutter, everything — including multi-page applications — are widgets. Fl
 The Navigator widget comes bundled with MaterialApp and manages a stack of Route objects. You can think of a route object as a representation of a single page or screen. The route at the top of this stack is visible to the user, and when the user pushes the back button, the uppermost route pops out, revealing the route below it, just like a stack of cards.
 
 ### Let's start
-Let’s start by creating a MaterialApp widget that will configure the top-level Navigator along with other basic things for our app:
+Imports and main function.
+```
+import 'package:flutter/material.dart';
+import 'package:flutter/widgets.dart';
+
+void main() => runApp(MyApp());
+```
+
+Create a MaterialApp widget that will configure the top-level Navigator along with other basic things for our app:
 ```
 class MyApp extends StatelessWidget {
   const MyApp({Key? key}) : super(key: key);
@@ -110,7 +118,9 @@ onPressed: () {
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 
-void main() => runApp(MyApp());
+void main() {
+  runApp(const MyApp());
+}
 
 class MyApp extends StatelessWidget {
   const MyApp({Key? key}) : super(key: key);
