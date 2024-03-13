@@ -14,7 +14,10 @@ Imports and main function.
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 
-void main() => runApp(MyApp());
+void main() {
+  runApp(const MyApp());
+}
+
 ```
 
 Create a MaterialApp widget that will configure the top-level Navigator along with other basic things for our app:
