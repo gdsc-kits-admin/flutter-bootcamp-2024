@@ -103,6 +103,12 @@ class MyApp extends StatelessWidget {
 
 # Pages 
 
+  - **auth_page.dart**
+  - **home_page.dart**
+  - **login_or_register_page.dart**
+  - **login_page.dart**
+  - **register_page.dart**
+
 ## auth_page.dart
 
 ```
@@ -488,6 +494,11 @@ class _RegisterPageState extends State<RegisterPage> {
 ```
 
 # components 
+
+  - **my_button.dart**
+  - **my_textfield.dart**
+  - **square_tile.dart**
+    
 
 ## my_button.dart
 
