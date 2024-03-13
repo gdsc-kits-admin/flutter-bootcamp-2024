@@ -41,11 +41,12 @@ The appBar property sets the app bar of the page to a AppBar widget with a green
 The drawer property sets the drawer of the page to a Drawer widget with a child ListView widget. The ListView widget contains a number of ListTile widgets that display icons and text, and are used to navigate to different pages.
 
 ```
+
 class MyHomePage extends StatelessWidget {
   final String title;
-
+ 
   const MyHomePage({Key? key, required this.title}) : super(key: key);
-
+ 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -91,7 +92,46 @@ class MyHomePage extends StatelessWidget {
               },
             ),
             ListTile(
-              leading: const
+              leading: const Icon(Icons.book),
+              title: const Text(' My Course '),
+              onTap: () {
+                Navigator.pop(context);
+              },
+            ),
+            ListTile(
+              leading: const Icon(Icons.workspace_premium),
+              title: const Text(' Go Premium '),
+              onTap: () {
+                Navigator.pop(context);
+              },
+            ),
+            ListTile(
+              leading: const Icon(Icons.video_label),
+              title: const Text(' Saved Videos '),
+              onTap: () {
+                Navigator.pop(context);
+              },
+            ),
+            ListTile(
+              leading: const Icon(Icons.edit),
+              title: const Text(' Edit Profile '),
+              onTap: () {
+                Navigator.pop(context);
+              },
+            ),
+            ListTile(
+              leading: const Icon(Icons.logout),
+              title: const Text('LogOut'),
+              onTap: () {
+                Navigator.pop(context);
+              },
+            ),
+          ],
+        ),
+      ), //Drawer
+    );
+  }
+}
 ```
 
 ### Output
