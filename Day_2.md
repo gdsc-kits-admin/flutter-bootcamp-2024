@@ -54,6 +54,7 @@ class FirstPage extends StatelessWidget {
 ```
 
 Now this is what our first page currently looks like:
+<br>
 ![image](https://github.com/gdsc-kits-admin/flutter-bootcamp-2024/assets/131938772/c06e799a-995a-406e-a5de-ddc5ea81e510)
 
 ### Navigate to Second Page
