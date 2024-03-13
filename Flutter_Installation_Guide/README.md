@@ -2,6 +2,9 @@
 
 Download the Flutter SDK from the official Flutter website (): Flutter SDK.
 Extract the downloaded ZIP file to a location on your PC (e.g., C:\src\flutter).
+
+https://storage.googleapis.com/flutter_infra_release/releases/stable/windows/flutter_windows_3.19.3-stable.zip
+
 Set Up Flutter Environment Variables:
 
 ## Add the Flutter bin directory to your **system's PATH environment variable**:
