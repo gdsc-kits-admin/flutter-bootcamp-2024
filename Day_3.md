@@ -12,6 +12,7 @@
       1) Give **Project Name** and click next
       2) **Disable** the Google Analytics for this Project
       3) Click **Create Project** Button to create your Project
+   
 
 ## Now get Started with Firebase Authentication on Flutter
 
@@ -42,6 +43,28 @@
   ```
   dart pub global activate flutterfire_cli
   ```
+
+  ## You should have to setup the the flutter fire bin path in your environment 
+
+  Update the PATH Environment Variable:
+
+   - Locate the directory where the 'flutterfire' executable is installed. In your case, it seems to be `C:\Users\bharath kumar\AppData\Local\Pub\Cache\bin.` Follow the instructions for your specific version of Windows to `update the PATH environment variable.` You can search online for `"configure windows path"` for detailed instructions.
+ 
+   - Add the directory containing the 'flutterfire' executable `(C:\Users\bharath kumar\AppData\Local\Pub\Cache\bin)` to the PATH environment variable. Use the Full Path to Execute the Command:
+
+  - Instead of relying on the PATH variable, you can execute the 'flutterfire' command by providing the full path to the executable. For example: makefile
+
+**Copy code**
+
+ ```
+ C:\Users\bharath kumar\AppData\Local\Pub\Cache\bin\flutterfire configure
+ ```
+**Verify Flutterfire Installation:**
+
+  - Double-check that Flutterfire is correctly installed by running pub global activate flutterfire again. Make sure there are no errors during the installation process.
+After performing one of these actions, try running the `'flutterfire'` command again in your command prompt to see if the issue is resolved.
+
+
 
   ### Step 2: Configure your apps to use Firebase
 
