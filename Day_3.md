@@ -639,6 +639,31 @@ class SquareTile extends StatelessWidget {
 
   images are available in the repo folder name called images 
 
+
+  # Output 
+
+  ### Authentication
+
+  ![image](https://github.com/gdsc-kits-admin/flutter-bootcamp-2024/assets/116173614/46e4e636-e031-450a-9dcd-0f4e463913de)
+
+
+ ### Sign in and Sign up 
+
+ 
+![image](https://github.com/gdsc-kits-admin/flutter-bootcamp-2024/assets/116173614/3d8573ec-1e5a-4534-be92-48dd9088efd3)
+
+
+![image](https://github.com/gdsc-kits-admin/flutter-bootcamp-2024/assets/116173614/3dd52fa6-f85b-4118-9c1e-5f8f01b455a5)
+
+
+![image](https://github.com/gdsc-kits-admin/flutter-bootcamp-2024/assets/116173614/842760a9-4a6e-467f-b730-db2db4cade6d)
+
+
+![image](https://github.com/gdsc-kits-admin/flutter-bootcamp-2024/assets/116173614/a1e18360-b129-4fca-b3a8-643aa3d9a804)
+
+
+
+
   
   
   
