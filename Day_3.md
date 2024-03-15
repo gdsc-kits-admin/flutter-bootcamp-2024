@@ -171,33 +171,39 @@ class AuthPage extends StatelessWidget {
 ```
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
-import 'package:modernlogintute/pages/login_or_register_page.dart';
-import 'package:modernlogintute/pages/login_page.dart';
-import 'home_page.dart';
 
-class AuthPage extends StatelessWidget {
-  const AuthPage({super.key});
+class HomePage extends StatelessWidget {
+  HomePage({super.key});
+
+  final user = FirebaseAuth.instance.currentUser!;
+
+  // sign user out method
+  void signUserOut() {
+    FirebaseAuth.instance.signOut();
+  }
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: StreamBuilder<User?>(
-        stream: FirebaseAuth.instance.authStateChanges(),
-        builder: (context, snapshot) {
-          // user is logged in
-          if (snapshot.hasData) {
-            return HomePage();
-          }
-
-          // user is NOT logged in
-          else {
-            return LoginOrRegisterPage();
-          }
-        },
+      backgroundColor: Colors.grey[300],
+      appBar: AppBar(
+        backgroundColor: Colors.grey[900],
+        actions: [
+          IconButton(
+            onPressed: signUserOut,
+            icon: Icon(Icons.logout),
+          )
+        ],
       ),
+      body: Center(
+          child: Text(
+        "LOGGED IN AS: " + user.email!,
+        style: TextStyle(fontSize: 20),
+      )),
     );
   }
 }
+
 
 ```
 
